@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0405EEB9C6D0B87A6C225944 /* Pods-BSLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Tests/Pods-BSLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		08AA9A7250A1E8F554379AD1 /* Pods-BSLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Example/Pods-BSLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		401D95BFF98836072428C745 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		401D95BFF98836072428C745 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BSLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		74BFF1026DBF94BD1A459AFE /* Pods_BSLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5FB9579A4B2BAB3EB11D83 /* Pods-BSLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Example/Pods-BSLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		87D833070599D13826639713 /* Pods-BSLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Tests/Pods-BSLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A8ED5390C58D8F45B261C440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CED7343F1B404A6194C8FA9E /* BSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BSLabel.podspec; path = ../BSLabel.podspec; sourceTree = "<group>"; };
+		A8ED5390C58D8F45B261C440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CED7343F1B404A6194C8FA9E /* BSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSLabel.podspec; path = ../BSLabel.podspec; sourceTree = "<group>"; };
 		EDC9F29C5D23C9A969AA2978 /* Pods_BSLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -214,6 +214,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -494,11 +495,14 @@
 			baseConfigurationReference = 7B5FB9579A4B2BAB3EB11D83 /* Pods-BSLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BSLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -509,11 +513,14 @@
 			baseConfigurationReference = 08AA9A7250A1E8F554379AD1 /* Pods-BSLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BSLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
