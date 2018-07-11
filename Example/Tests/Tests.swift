@@ -12,7 +12,7 @@ class TableOfContentsSpec: QuickSpec {
             context("when applied primary class") {
                 label.labelClass = "lbl-primary"
                 it("should change color to primary class color"){
-                    let primaryColor = UIColor(rgb: Colors.Danger.rawValue)
+                    let primaryColor = UIColor(rgb: Colors.Primary.rawValue)
                     expect(label.backgroundColor).to(equal(primaryColor))
                 }
             }
