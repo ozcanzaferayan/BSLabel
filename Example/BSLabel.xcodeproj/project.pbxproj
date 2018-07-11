@@ -45,7 +45,7 @@
 		7B5FB9579A4B2BAB3EB11D83 /* Pods-BSLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Example/Pods-BSLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		87D833070599D13826639713 /* Pods-BSLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSLabel_Tests/Pods-BSLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A8ED5390C58D8F45B261C440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CED7343F1B404A6194C8FA9E /* BSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSLabel.podspec; path = ../BSLabel.podspec; sourceTree = "<group>"; };
+		CED7343F1B404A6194C8FA9E /* BSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSLabel.podspec; path = ../BSLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDC9F29C5D23C9A969AA2978 /* Pods_BSLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
